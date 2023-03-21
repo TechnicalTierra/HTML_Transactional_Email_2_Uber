@@ -20,11 +20,6 @@
       img {
          border: 0;
       }
-      a {
-         text-decoration: none;
-         color: #e8fbfa;
-         font-size: 16px;
-      }
       .content {
          line-height: 20px;
          font-size: 15px;
@@ -64,6 +59,9 @@
             padding-right: 0!important;
             padding-left: 0!important;
          }
+      }
+      @media  (max-width:453px) {
+
       }
       @media screen and (max-width: 399.98px) {
          img.three-col-img {
@@ -107,114 +105,120 @@
 
          <table align="center" style="border-spacing:0; color:#000000; font-family:'Lato', sans-serif, Arial, Helvetica; background-color: #fafdfe; Margin:0; padding:0; width:100%; max-width:600px;" role="presentation">
 
-            <tr style="background: #f8e8cd;">
-               <td style="padding:20px 40px 20px;"><!-- padding for email -->
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr>
-                        <td style="width:75%;" align="left">
-                           <a href="#" target="_blank"><img src="https://images2.imgbox.com/9d/36/9S0cZPFI_o.png" alt="Uber" style="width:55px;"></a>
-                        </td>
-                        <td style="width:25%;">
-                           <p style="font-size:11.5px;" align="right">
-                              Total: <span style="font-weight:bold;">$43.83</span><br />
-                              Thur, Feb 09, 2023
-                           </p>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
-            </tr>
+          <!-- row 1 | logo and date -->
+          <tr style="background: #f8e8cd;">
+            <td style="padding:20px 40px 20px;"><!-- padding for email -->
+              <table width="100%" style="border-spacing:0;" role="presentation">
+                <tr>
+                  <td style="width:75%;" align="left">
+                    <a href="#" target="_blank"><img src="https://i.ibb.co/tXpSngL/800px-Uber-logo-2018.png" alt="Uber" style="width:55px;"></a>
+                  </td>
+                  <td style="width:25%;">
+                    <p style="font-size:11.5px;" align="right">
+                      Total: <span style="font-weight:bold;">$43.83</span><br />
+                      Thur, Feb 09, 2023
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
-            <tr style="background: #f8e8cd;"><!-- Thanks -->
-               <td style="padding:0 40px 25px;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr>
-                        <td>
-                           <h1 style="color:black; font-weight:bold; font-size:46px; Margin:15px 0px;">Thanks for riding, <br />
-                              <span>Tierra</span>
-                           </h1>
-                           <p style="color:black; font-size:19px; Margin:0; padding:0;">We're glad to have you as an <br />
-                           Uber Rewards Gold Member.</p>
-                        </td>
-                        <td align="right" style="height:186px;">
-                           <img src="2-output-onlinepngtools.png" alt="car" width="150px" height="150px" style="position:relative;">
-                        </td>
-                     </tr>
-                     <!-- <tr style="Margin:0;"></tr> -->
-                  </table>
-               </td>
-            </tr>
+          <!-- row 2 | Thanks for riding | car pic -->
+          <tr style="background: #f8e8cd;">
+            <td style="padding:0 40px 20px;">
+              <h1 width="100%" style="color:black; font-weight:bold; font-size:48px; Margin:15px 0px 5px;">Thanks for riding, <br />
+                <span>Tierra</span>
+              </h1>
 
+              <table width="100%" style="border-spacing:0;" role="presentation">
+                <tr style="Margin:0;">
+                  <td>
+                    <p style="Margin:0; padding:0; color:black; font-size:20px;line-height:1.5;">We're glad to have you as an <br />
+                      Uber Rewards Gold Member.</p>
+                  </td>
+                  <td align="right" style="height:130px;">
+                    <img src="https://i.ibb.co/nc4jTKs/uber-car-pic-removebg-preview.png" alt="car" width="195px" height="125px" style="position:relative;">
+                  </td>
+                </tr> 
+              </table>
+            </td>
+          </tr>
+
+          <!-- row 3 | Total and breakdown -->
             <tr>
-               <td style="padding:0 40px;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr>
-                        <td>
-                           <table style="Margin:0; width:100%;">
-                              <tr>
-                                 <td style="Margin:0; width:50%; color:black; font-weight:bold;">
-                                    <h3 style="font-size:35px; Margin:25px 0 10px;">Total:</h3>
-                                    <p>
-                                       <br>
-                                    </p>
-                                 </td>
-                                 <td style="width:50%; font-size:35px; color:black; font-weight:bold;" align="right">
-                                    <h3 style="font-size:35px; Margin:25px 0 10px;">$43.83</h3>
-                                    <p style="padding:0;">
-                                       <span style="padding-right:8px; color:rgb(243, 209, 115); line-height:1;">&#9670;</span><span style="font-size:14px; font-weight:400;">You earned 87 points on this trip</span>
-                                    </p>
-                                 </td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+              <td style="padding:0 40px;">
+                <table width="100%" style="border-spacing:0;" role="presentation">
+                  <tr>
+                    <td>
+                      <table width="100%" style="border-spacing:0;" role="presentation">
+                        <tr>
+                          <td style="Margin:0; width:50%; color:black; font-weight:bold;">
+                            <h3 style="font-size:35px; Margin:25px 0 10px;">Total:</h3>
+                            <p>
+                              <br>
+                            </p>
+                          </td>
+                          <td style="width:50%; font-size:35px; color:black; font-weight:bold;" align="right">
+                            <h3 style="font-size:35px; Margin:25px 0 10px;">$43.83</h3>
+                            <p style="padding:0;">
+                              <span style="padding-right:8px; color:rgb(243, 209, 115); line-height:1;">&#9670;</span><span style="font-size:14px; font-weight:400;">You earned 87 points on this trip</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr>
 
+            <!-- row | horizontal line -->
             <tr>
-               <td style="padding:0 40px;">
-                  <table style="width:100%;">
-                     <tr>
-                        <td style="width:100%;">
-                           <hr style="border-color:#21c6b8; width:100%;" />
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+              <td style="padding:0 40px;">
+                <table style="width:100%;">
+                  <tr>
+                    <td style="width:100%;">
+                        <hr style="border-color:#21c6b8; width:100%;" />
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr>
 
+            <!-- -->
             <tr>
-               <td style="padding:0 40px;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr>
-                        <td>
-                           <table style="Margin:0; width:100%;">
-                              <tr>
-                                 <td style="width:50%;">
-                                    <h4 style="font-size:14px;">Trip Fare</h4>
-                                 </td>
-                                 <td style="width:50%; font-size:14px;" align="right">
-                                    <span>$38.81</span>
-                                 </td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
+              <td style="padding:0 40px;">
+              <table width="100%" style="border-spacing:0;" role="presentation">
+                <tr>
+                <td>
+                  <table style="Margin:0; width:100%;">
+                  <tr>
+                    <td style="width:50%;">
+                      <h4 style="font-size:14px;">Trip Fare</h4>
+                    </td>
+                    <td style="width:50%; font-size:14px;" align="right">
+                      <span>$38.81</span>
+                    </td>
+                  </tr>
                   </table>
-               </td>
+                </td>
+                </tr>
+              </table>
+              </td>
             </tr> 
 
+            <!-- row | horizontal line -->
             <tr>
-               <td style="padding:0 40px;">
-                  <table style="width:100%;">
-                     <tr>
-                        <td style="width:100%;">
-                           <hr style="width:100%; border-color:rgb(124, 123, 123, 0.15);" />
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+              <td style="padding:0 40px;">
+                <table style="width:100%;">
+                  <tr>
+                    <td style="width:100%;">
+                      <hr style="width:100%; border-color:rgb(124, 123, 123, 0.15);" />
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr>
             
             <tr><!-- Trip Fare breakdown -->
@@ -266,15 +270,15 @@
                         </td>
                      </tr>
                      <tr>
-                        <td style="width:50%;">
-                           <p style="Margin: 15px 0px 15px;">
-                              <span style="vertical-align:middle;">Tolls, Surcharges, and Fees</span>
-                              <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="Tolls, Surcharges, and Fees">?</span>
-                           </p>
-                        </td>
-                        <td align="right">
-                           <p style="Margin: 15px 0px 15px;">$2.40</p>
-                        </td>
+                      <td style="width:50%;">
+                          <p style="Margin: 15px 0px 15px;">
+                            <span style="vertical-align:middle;">Tolls, Surcharges, and Fees</span>
+                            <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="Tolls, Surcharges, and Fees">?</span>
+                          </p>
+                      </td>
+                      <td align="right">
+                        <p style="Margin: 15px 0px 15px;">$2.40</p>
+                      </td>
                      </tr>
                   </table>
                </td>
@@ -305,7 +309,7 @@
                            <table width="100%; Margin:0;">
                               <tr>
                                  <td align="left" width="3%">
-                                    <p style="Margin:0px;"> <img src="https://thumbs2.imgbox.com/5a/e6/Kovf0jwT_t.png" alt="Uber logo" width="50px" height="30px" style="border-radius:2.5px;">
+                                    <p style="Margin:0px;"> <img src="https://i.ibb.co/z6xcwZV/white-circle-black-background-uber-2.png" alt="white Uber logo with black background" width="50px" height="30px" style="border-radius:2.5px;">
                                  </td>
                                  <td width="43%">
                                     <p style="Margin:0; padding:0;">
