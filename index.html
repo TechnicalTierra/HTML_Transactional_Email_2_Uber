@@ -60,8 +60,21 @@
             padding-left: 0!important;
          }
       }
-      @media  (max-width:453px) {
 
+      @media  (max-width:453px) {
+        h1 {
+          text-align:center;
+        }
+        .car-words {
+          display:block !important;
+          text-align:center;
+          padding-top:10px;
+        }
+        .car-pic {
+          display:block !important;
+          padding-top:15px;
+          width:300px;
+        }
       }
       @media screen and (max-width: 399.98px) {
          img.three-col-img {
@@ -133,11 +146,11 @@
 
               <table width="100%" style="border-spacing:0;" role="presentation">
                 <tr style="Margin:0;">
-                  <td>
+                  <td class="car-words">
                     <p style="Margin:0; padding:0; color:black; font-size:20px;line-height:1.5;">We're glad to have you as an <br />
                       Uber Rewards Gold Member.</p>
                   </td>
-                  <td align="right" style="height:130px;">
+                  <td align="right" style="height:130px;" class="car-pic">
                     <img src="https://i.ibb.co/nc4jTKs/uber-car-pic-removebg-preview.png" alt="car" width="195px" height="125px" style="position:relative;">
                   </td>
                 </tr> 
@@ -173,7 +186,7 @@
               </td>
             </tr>
 
-            <!-- row | horizontal line -->
+            <!-- row 4 | horizontal line -->
             <tr>
               <td style="padding:0 40px;">
                 <table style="width:100%;">
@@ -186,7 +199,7 @@
               </td>
             </tr>
 
-            <!-- -->
+            <!-- row 5 | Trip Fair -->
             <tr>
               <td style="padding:0 40px;">
               <table width="100%" style="border-spacing:0;" role="presentation">
@@ -208,7 +221,7 @@
               </td>
             </tr> 
 
-            <!-- row | horizontal line -->
+            <!-- row 6 | horizontal line -->
             <tr>
               <td style="padding:0 40px;">
                 <table style="width:100%;">
@@ -221,110 +234,112 @@
               </td>
             </tr>
             
-            <tr><!-- Trip Fare breakdown -->
-               <td style="padding:0 40px;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr >
-                        <td style="width:50%;">
-                           <p style="Margin-bottom:0px; display:inline-block;">
-                              <span style="vertical-align:middle;">Subtotal</span>
-                              <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="The fare subtotal before taxes and fees.">?</span>
-                           </p>
-                        </td>
-                        <td align="right">
-                           <p style="Margin-bottom:0px;">$38.31</p>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td style="width:50%;">
-                           <p style="Margin-bottom:0px; vertical-align:middle;"><span style="vertical-align:middle;">NY Black Car Fund</span>
-                           <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="NY Black Car Fund.">?</span>
-                           </p>
-                        </td>
-                        <td align="right">
-                           <p style="Margin-bottom:0px;">$1.03</p>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td style="width:50%;">
-                           <p style="Margin-bottom:0px;">
-                              <span style="vertical-align:middle;">TNC Assessment Fee</span>
-                              <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="TNC Assessment Fee">?</span>
-                           </p>
-                        </td>
-                        <td align="right">
-                           <p style="Margin-bottom:0px;">$1.59</p>
-                        </td>
-                     </tr>
-                     <tr>
-                        <td style="width:50%;">
-                           <p style="Margin-bottom:0px;">
-                              <span style="vertical-align:middle;">Wait Time</span>
-                              <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="Wait Time">?</span>
-                           </p>
-                        </td>
-                        <td align="right">
-                           <p style="Margin-bottom:0px;">
-                              <span style="color:rgb(84, 201, 84);">$0.00</span>
-                           </p>
-                        </td>
-                     </tr>
-                     <tr>
-                      <td style="width:50%;">
-                          <p style="Margin: 15px 0px 15px;">
-                            <span style="vertical-align:middle;">Tolls, Surcharges, and Fees</span>
-                            <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="Tolls, Surcharges, and Fees">?</span>
-                          </p>
-                      </td>
-                      <td align="right">
-                        <p style="Margin: 15px 0px 15px;">$2.40</p>
-                      </td>
-                     </tr>
-                  </table>
-               </td>
+            <tr><!-- row 7 | Trip Fare breakdown -->
+              <td style="padding:0 40px;">
+                <table width="100%" style="border-spacing:0;" role="presentation">
+                  <tr >
+                    <td style="width:50%;">
+                      <p style="Margin-bottom:0px; display:inline-block;">
+                        <span style="vertical-align:middle;">Subtotal</span>
+                        <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="The fare subtotal before taxes and fees.">?</span>
+                      </p>
+                    </td>
+                    <td align="right">
+                      <p style="Margin-bottom:0px;">$38.31</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:50%;">
+                      <p style="Margin-bottom:0px; vertical-align:middle;"><span style="vertical-align:middle;">NY Black Car Fund</span>
+                        <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="NY Black Car Fund.">?</span>
+                        </p>
+                    </td>
+                    <td align="right">
+                      <p style="Margin-bottom:0px;">$1.03</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:50%;">
+                      <p style="Margin-bottom:0px;">
+                        <span style="vertical-align:middle;">TNC Assessment Fee</span>
+                        <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="TNC Assessment Fee">?</span>
+                      </p>
+                    </td>
+                    <td align="right">
+                        <p style="Margin-bottom:0px;">$1.59</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:50%;">
+                      <p style="Margin-bottom:0px;">
+                        <span style="vertical-align:middle;">Wait Time</span>
+                        <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="Wait Time">?</span>
+                      </p>
+                    </td>
+                    <td align="right">
+                      <p style="Margin-bottom:0px;">
+                        <span style="color:rgb(84, 201, 84);">$0.00</span>
+                        </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width:50%;">
+                      <p style="Margin: 15px 0px 15px;">
+                        <span style="vertical-align:middle;">Tolls, Surcharges, and Fees</span>
+                        <span style="width:5%; padding: 1px 4px; background-color:lightblue; color:black; font-size:8px; border-radius:51%;" title="Tolls, Surcharges, and Fees">?</span>
+                      </p>
+                    </td>
+                    <td align="right">
+                      <p style="Margin: 15px 0px 15px;">$2.40</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr> 
 
+            <!-- roww 8 | horizontal line -->
             <tr>
-               <td style="padding:0 40px;">
-                  <table style="width:100%;">
-                     <tr>
-                        <td style="width:100%;">
-                           <hr style="width:100%; border-color:rgb(124, 123, 123, 0.15);" />
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+              <td style="padding:0 40px;">
+                <table style="width:100%;">
+                  <tr>
+                    <td style="width:100%;">
+                      <hr style="width:100%; border-color:rgb(124, 123, 123, 0.15);" />
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr>
 
+            <!-- row 9 | Amount charged -->
             <tr>
-               <td style="padding:0 40px 40px;">
-                  <table width="100%" style="border-spacing:0;" role="presentation">
-                     <tr>
-                        <td style="width:100%;">
-                           <p style="font-size:14px; font-weight:bold;">Amount Charged</p>
-                        </td>
-                     </tr>
-                     <tr style="width:100%;">
-                        <td>
-                           <table width="100%; Margin:0;">
-                              <tr>
-                                 <td align="left" width="3%">
-                                    <p style="Margin:0px;"> <img src="https://i.ibb.co/z6xcwZV/white-circle-black-background-uber-2.png" alt="white Uber logo with black background" width="50px" height="30px" style="border-radius:2.5px;">
-                                 </td>
-                                 <td width="43%">
-                                    <p style="Margin:0; padding:0;">
-                                       <span>Uber Cash</span>
-                                    </p>
-                                 </td>
-                                 <td align="right" width="10%">
-                                    <p style="Margin:0; font-weight:700;">$43.83</p>
-                                 </td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+              <td style="padding:0 40px 40px;">
+                <table width="100%" style="border-spacing:0;" role="presentation">
+                  <tr>
+                    <td style="width:100%;">
+                      <p style="font-size:14px; font-weight:bold;">Amount Charged</p>
+                    </td>
+                  </tr>
+                  <tr style="width:100%;">
+                    <td>
+                      <table width="100%; Margin:0;">
+                        <tr>
+                          <td align="left" width="3%">
+                            <p style="Margin:0px;"> <img src="https://i.ibb.co/z6xcwZV/white-circle-black-background-uber-2.png" alt="white Uber logo with black background" width="50px" height="30px" style="border-radius:2.5px;">
+                          </td>
+                          <td width="43%">
+                            <p style="Margin:0; padding:0;">
+                                <span>Uber Cash</span>
+                            </p>
+                          </td>
+                          <td align="right" width="10%">
+                            <p style="Margin:0; font-weight:700;">$43.83</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr>
          </table>
 
