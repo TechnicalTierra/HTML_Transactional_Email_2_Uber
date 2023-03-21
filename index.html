@@ -63,17 +63,27 @@
 
       @media  (max-width:453px) {
         h1 {
-          text-align:center;
+          text-align:center !important;
         }
         .car-words {
           display:block !important;
-          text-align:center;
-          padding-top:10px;
+          text-align:center !important;
+          padding-top:10px !important;
         }
-        .car-pic {
+        .car-pic-td {
+          Margin-left: auto !important;
+          Margin-right:auto !important;
           display:block !important;
-          padding-top:15px;
-          width:300px;
+          width:300px !important;
+          padding-top:15px !important;
+          padding-left:auto !important;
+          padding-right:auto !important;
+        }
+        .car-pic-img {
+          display:block;
+          Margin-left:auto;
+          Margin-right:auto;
+          /* width:50%; */
         }
       }
       @media screen and (max-width: 399.98px) {
@@ -137,7 +147,7 @@
             </td>
           </tr>
 
-          <!-- row 2 | Thanks for riding | car pic -->
+          <!-- row 2 | Thanks for riding and CAR pic -->
           <tr style="background: #f8e8cd;">
             <td style="padding:0 40px 20px;">
               <h1 width="100%" style="color:black; font-weight:bold; font-size:48px; Margin:15px 0px 5px;">Thanks for riding, <br />
@@ -150,8 +160,8 @@
                     <p style="Margin:0; padding:0; color:black; font-size:20px;line-height:1.5;">We're glad to have you as an <br />
                       Uber Rewards Gold Member.</p>
                   </td>
-                  <td align="right" style="height:130px;" class="car-pic">
-                    <img src="https://i.ibb.co/nc4jTKs/uber-car-pic-removebg-preview.png" alt="car" width="195px" height="125px" style="position:relative;">
+                  <td align="right" style="height:130px;" class="car-pic-td">
+                    <img class="car-pic-img" src="https://i.ibb.co/nc4jTKs/uber-car-pic-removebg-preview.png" alt="car" width="195px" height="125px" style="position:relative;">
                   </td>
                 </tr> 
               </table>
